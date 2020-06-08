@@ -1,0 +1,20 @@
+.inputBox{
+    width: 300px;
+    display:flex;
+    flex-direction:row;
+}
+
+.inputBox > div{
+    text-align: center;
+    width: 120px;
+}
+
+.button{
+    margin-top: 20px;
+    width: 300px;
+    text-align: center;
+    padding:10px;
+    background-color: #FFF;
+    border-radius: 10px;
+    box-shadow: 0 1px 2px #d2d4d7;
+}

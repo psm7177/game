@@ -1,0 +1,131 @@
+.App{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title{
+    margin-top: 60px;
+    margin-bottom: 60px;
+    
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.board{
+    display: flex;
+    flex-direction: row;
+}
+
+.ScoreBoard{
+    margin: 10px;
+}
+
+.GameBoard{
+    margin: 10px;
+    width: 360px;
+    height: 360px;
+    box-shadow: 0 1px 2px #d2d4d7;
+    border-radius: 10px;
+    background-color: #FFF;
+}
+.WordBoard{
+    margin: 10px;
+    width: 200px;
+    box-shadow: 0 1px 2px #d2d4d7;
+    background-color: #FFF;
+    border-radius: 10px;
+}
+
+.user{
+    width: 240px;
+    font-size: 30px;
+    font-weight: bold;
+    background-color: #FFF;
+    display: flex;
+    align-items: center;
+    padding:5px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-right: 10px;
+    border-radius: 10px;
+    box-shadow: 0 1px 2px #d2d4d7;
+    margin-bottom: 15px;
+}
+
+.name{
+
+}
+
+.score{
+    flex:1;
+    text-align: end;
+}
+
+.word{
+    padding:5px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-right: 10px;
+}
+
+.correct{
+    text-decoration-line:line-through;
+    color:#d2d4d7;
+}
+
+.start{
+    width: 240px;
+    font-size: 30px;
+    font-weight: bold;
+    background-color: #FFF;
+    padding:5px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-right: 10px;
+    border-radius: 10px;
+    box-shadow: 0 1px 2px #d2d4d7;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.modal{
+    width: 100vw;
+    height: 100vh;
+
+    display: none;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+
+    z-index: 1000;
+    background-color: rgba(0,0,0,0.6);
+}
+
+.active{
+    display: flex;
+}
+
+.pannel{
+    width: 400px;
+    height: 400px;
+    background-color: #FFF;
+    border-radius: 10px;
+    box-shadow: 0 1px 2px #d2d4d7;
+}
+.pannel-title{
+    text-align: center;
+    font-size: 20px;
+}
+
+.rank{
+    padding:10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.rank-row{
+    display: flex;
+    flex-direction: row;
+}
